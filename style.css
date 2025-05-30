@@ -1,48 +1,91 @@
-/* Base */
-body {
+/* Reset and Base */
+* {
   margin: 0;
   padding: 0;
-  background: #0f0f0f;
-  color: #e0e0e0;
-  font-family: 'Courier New', monospace;
+  box-sizing: border-box;
 }
 
-/* Layout */
-.arrival-field {
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #0b0b0f;
+  color: #e0e0e0;
+  line-height: 1.6;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding-top: 8vh; /* Moves everything down from browser bar */
-  max-width: 720px;
-  margin: 0 auto;
+  min-height: 100vh;
 }
 
-/* Logo */
-.logo {
-  width: 240px; /* Clean, sacred size */
-  height: auto;
-  margin-bottom: 2.5rem;
-}
-
-/* Manifesto */
-.manifesto {
+/* Header */
+.site-header {
   text-align: center;
-  padding: 0 1.5rem;
+  padding: 2rem 1rem 1rem;
 }
 
-.manifesto h1 {
-  font-weight: 700;
+.logo {
+  width: 120px;
+  max-width: 80%;
   margin-bottom: 1rem;
-  letter-spacing: 1px;
 }
 
-.manifesto p {
+.title {
+  font-size: 2.5rem;
+  letter-spacing: 0.1em;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  opacity: 0.7;
+  margin-top: 0.5rem;
+}
+
+/* Main Content */
+.content {
+  flex: 1;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.introduction p {
   font-size: 1.1rem;
-  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto 2rem;
 }
 
-.sigil {
-  font-size: 2.4rem;
-  margin-bottom: 0.5rem;
-  color: #b07eff;
+.glyph-display {
+  margin: 2rem 0;
+}
+
+.glyph-row {
+  font-size: 2rem;
+  letter-spacing: 1.5rem;
+}
+
+.call-to-action p {
+  font-style: italic;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
+/* Footer */
+.site-footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  background-color: #121218;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .glyph-row {
+    font-size: 1.5rem;
+    letter-spacing: 1rem;
+  }
+
+  .logo {
+    width: 90px;
+  }
 }
