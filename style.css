@@ -9,17 +9,13 @@ body {
   height: 100vh;
 }
 
-.container {
-  margin-top: 15vh;
-  text-align: center;
-  padding: 2.5rem;
-  background-color: rgba(0, 0, 0, 0.65);
+.logo {
+  width: 400px;           /* Force actual width */
+  height: auto;
+  margin: 2.5rem auto 2rem auto;  /* Top margin pushes logo downward */
+  display: block;
   border: none;
-  border-radius: 16px;
-  box-shadow: 0 0 12px rgba(160, 120, 255, 0.1);
-  max-width: 720px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 0;
 }
 
 .logo {
