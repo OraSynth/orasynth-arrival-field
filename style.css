@@ -13,9 +13,9 @@ body {
 
 .container {
   text-align: center;
-  padding: 1rem 2rem; /* top/bottom 1rem, sides 2rem */
+  padding: 1rem 2rem;
   background-color: rgba(0, 0, 0, 0.6);
-  border: 1px solid #444;
+  /* border: 1px solid #444; */ /* Remove or comment this line */
   border-radius: 12px;
 }
 
