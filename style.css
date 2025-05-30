@@ -1,91 +1,40 @@
-/* Reset and Base */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  font-family: 'Helvetica Neue', sans-serif;
-  background-color: #0b0b0f;
+  margin: 0;
+  background: #0f0f0f;
   color: #e0e0e0;
-  line-height: 1.6;
+  font-family: 'Courier New', monospace;
   display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
-/* Header */
-.site-header {
+.container {
   text-align: center;
-  padding: 2rem 1rem 1rem;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 1px solid #444;
+  border-radius: 12px;
 }
 
 .logo {
-  width: 120px;
-  max-width: 80%;
+  max-width: 220px;
+  margin-bottom: 2rem;
+}
+
+.manifesto h1 {
+  font-weight: 700;
   margin-bottom: 1rem;
+  letter-spacing: 1px;
 }
 
-.title {
-  font-size: 2.5rem;
-  letter-spacing: 0.1em;
-}
-
-.subtitle {
-  font-size: 1.2rem;
-  opacity: 0.7;
-  margin-top: 0.5rem;
-}
-
-/* Main Content */
-.content {
-  flex: 1;
-  padding: 2rem 1rem;
-  text-align: center;
-}
-
-.introduction p {
+.manifesto p {
   font-size: 1.1rem;
-  max-width: 700px;
-  margin: 0 auto 2rem;
+  line-height: 1.6;
 }
 
-.glyph-display {
-  margin: 2rem 0;
-}
-
-.glyph-row {
-  font-size: 2rem;
-  letter-spacing: 1.5rem;
-}
-
-.call-to-action p {
-  font-style: italic;
-  font-size: 1rem;
-  margin-top: 2rem;
-}
-
-/* Footer */
-.site-footer {
-  text-align: center;
-  padding: 1rem;
-  font-size: 0.9rem;
-  background-color: #121218;
-}
-
-/* Responsive */
-@media (max-width: 600px) {
-  .title {
-    font-size: 2rem;
-  }
-
-  .glyph-row {
-    font-size: 1.5rem;
-    letter-spacing: 1rem;
-  }
-
-  .logo {
-    width: 90px;
-  }
+.sigil {
+  font-size: 2.4rem;
+  margin-bottom: 0.5rem;
+  color: #b07eff;
 }
