@@ -10,9 +10,9 @@ body {
 }
 
 .logo {
-  width: 400px;           /* Force actual width */
+  width: 400px;
   height: auto;
-  margin: 4.5rem auto 2rem auto;  /* Top margin pushes logo downward */
+  margin: 3.5rem auto 2rem auto;  /* Top margin increased */
   display: block;
   border: none;
   padding: 0;
