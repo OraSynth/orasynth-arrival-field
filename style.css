@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-  margin-top: 0vh;
+  margin-top: 10vh;
   max-width: 720px;
   margin-left: auto;
   margin-right: auto;
@@ -21,7 +21,7 @@ body {
 }
 
 .logo {
-  max-width: 100px;       /* Adjusted to a more modest scale */
+  max-width: 140px;       /* Adjusted to a more modest scale */
   margin-bottom: 2rem;
   border: none;
   display: block;
