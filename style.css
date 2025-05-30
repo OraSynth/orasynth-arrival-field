@@ -5,23 +5,19 @@ body {
   font-family: 'Courier New', monospace;
   display: flex;
   justify-content: center;
-  /* Remove: align-items: center */
-  padding-top: 40px; /* Adds space from top instead */
-  height: auto; /* Allow natural height */
+  height: auto;
   min-height: 100vh;
 }
 
 .container {
   text-align: center;
-  padding: 1rem 2rem;
-  background-color: rgba(0, 0, 0, 0.6);
-  /* border: 1px solid #444; */ /* Remove or comment this line */
-  border-radius: 12px;
+  padding: 0 2rem; /* no top/bottom padding */
+  background-color: #0f0f0f; /* matches background */
 }
 
 .logo {
   max-width: 220px;
-  margin-top: 20px; /* Pushes logo down slightly */
+  margin-top: 40px; /* distance below browser bar */
   margin-bottom: 2rem;
 }
 
