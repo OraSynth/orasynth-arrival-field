@@ -21,11 +21,16 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-}
 
 .logo {
-  max-width: 220px;
+  max-width: 400;
+  height: auto;
   margin-bottom: 2rem;
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1.5rem; /* 👈 This pushes the logo down, not the container */
 }
 
 .manifesto h1 {
