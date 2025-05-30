@@ -10,6 +10,7 @@ body {
 }
 
 .container {
+  margin-top: 3rem; /* shift the whole block down */
   text-align: center;
   padding: 2rem;
   background-color: rgba(0, 0, 0, 0.6);
