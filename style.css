@@ -40,9 +40,12 @@ body {
 }
 
 .sigil {
-  font-size: 3rem;
+  font-size: 1.8rem;
+  font-weight: 700;
   margin-bottom: 1rem;
+  letter-spacing: 2px;
   color: #b07eff;
+  text-transform: uppercase;
   text-shadow: 0 0 12px #b07eff55;
 }
 
