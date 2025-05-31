@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: radial-gradient(ellipse at center, #0f0f0f 0%, #000000 100%);
+  background: radial-gradient(circle at center, #1a0f2b 0%, #0f0f0f 50%, #000000 100%);
   color: #e0e0e0;
   font-family: 'JetBrains Mono', monospace;
   display: flex;
