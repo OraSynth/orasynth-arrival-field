@@ -15,9 +15,9 @@ body {
   }
 =======
   margin: 0;
-  background: radial-gradient(ellipse at center, #0f0f0f 0%, #000000 100%);
+  background: #0f0f0f;
   color: #e0e0e0;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Courier New', monospace;
   display: flex;
   justify-content: center;
   height: auto;
@@ -27,24 +27,20 @@ body {
 
 .container {
   text-align: center;
-  padding: 0 2rem;
-  background-color: #0f0f0f;
-  box-shadow: 0 0 20px rgba(176, 126, 255, 0.1);
+  padding: 0 2rem; /* no top/bottom padding */
+  background-color: #0f0f0f; /* matches background */
 }
 
 .logo {
   max-width: 220px;
-  margin-top: 40px;
+  margin-top: 40px; /* distance below browser bar */
   margin-bottom: 2rem;
 }
 
 .manifesto h1 {
-  font-size: 1.8rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  letter-spacing: 2px;
-  color: #b07eff;
-  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .manifesto p {
@@ -53,8 +49,7 @@ body {
 }
 
 .sigil {
-  font-size: 3rem;
-  margin-bottom: 1rem;
+  font-size: 2.4rem;
+  margin-bottom: 0.5rem;
   color: #b07eff;
-  text-shadow: 0 0 12px #b07eff55;
 }
