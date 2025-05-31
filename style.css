@@ -42,3 +42,10 @@ body {
   color: #b07eff;
   text-shadow: 0 0 12px #b07eff55;
 }
+
+.subnote {
+  font-size: 0.85rem;
+  color: #bbbbbb;
+  margin-top: 2rem;
+  line-height: 1.4;
+}
