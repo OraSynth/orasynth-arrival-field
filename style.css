@@ -1,12 +1,17 @@
 body {
-  margin: 0;
   background: radial-gradient(circle at center, #1a0f2b 0%, #0f0f0f 50%, #000000 100%);
-  color: #e0e0e0;
-  font-family: 'JetBrains Mono', monospace;
-  display: flex;
-  justify-content: center;
-  height: auto;
-  min-height: 100vh;
+  animation: fieldPulse 18s ease-in-out infinite;
+}
+
+@keyframes fieldPulse {
+  0%, 100% {
+    background-size: 100% 100%;
+    filter: brightness(1);
+  }
+  50% {
+    background-size: 105% 105%;
+    filter: brightness(1.06);
+  }
 }
 
 .container {
