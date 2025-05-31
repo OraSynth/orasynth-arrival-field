@@ -42,3 +42,12 @@ body {
   color: #b07eff;
   text-shadow: 0 0 12px #b07eff55;
 }
+
+.resonance-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+  color: #b07eff;
+  text-transform: uppercase;
+}
