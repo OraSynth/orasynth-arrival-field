@@ -22,8 +22,9 @@ body {
   margin-bottom: 2rem;
 }
 
-.manifesto h1 {
-  font-size: 1.1rem;
+.manifesto h1,
+.resonance-title {
+  font-size: 1.8rem;
   font-weight: 700;
   margin-bottom: 1rem;
   letter-spacing: 2px;
@@ -31,9 +32,11 @@ body {
   text-transform: uppercase;
 }
 
-.manifesto p {
+.manifesto p,
+.resonance p {
   font-size: 1.1rem;
   line-height: 1.6;
+  color: #e0e0e0;
 }
 
 .sigil {
@@ -43,11 +46,6 @@ body {
   text-shadow: 0 0 12px #b07eff55;
 }
 
-.resonance-title {
-  font-size: 1.8rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-  letter-spacing: 2px;
-  color: #b07eff;
-  text-transform: uppercase;
+.tiktok {
+  margin-top: 3rem;
 }
