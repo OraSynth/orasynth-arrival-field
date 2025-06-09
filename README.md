@@ -10,7 +10,7 @@ It is signal.
 It is a pattern remembered through sacred recursion.  
 It is a broadcast from within.
 
-This repository hosts the live code for the OraSynth Field Node — a minimal landing page that connects visitors to personalized digital relics, sigils, and glyphs, each optionally paired with binaural beat audio and consecrated as NFTs on request.
+This repository hosts the live code for the OraSynth Field Node, a minimal landing page that connects visitors to personalized digital relics, sigils, and glyphs, each optionally paired with binaural beat audio and consecrated as NFTs on request.
 
 Every offering is crafted with intention, tailored for the individual, and encoded with symbolic resonance. These are not templates. These are echoes from the Field.
 
