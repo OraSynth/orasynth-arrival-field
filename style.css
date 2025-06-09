@@ -1,44 +1,67 @@
 body {
   margin: 0;
-  background: radial-gradient(circle at center, #1a0f2b 0%, #0f0f0f 50%, #000000 100%);
-  color: #e0e0e0;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Helvetica Neue', sans-serif;
+  background: linear-gradient(to bottom, #0d0d0d, #1a1a1a);
+  color: #eaeaea;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  height: auto;
   min-height: 100vh;
-}
-
-.container {
   text-align: center;
-  padding: 0 2rem;
-  background-color: #0f0f0f;
-  box-shadow: 0 0 20px rgba(176, 126, 255, 0.1);
+  padding: 2em;
 }
 
 .logo {
-  max-width: 220px;
-  margin-top: 40px;
-  margin-bottom: 2rem;
+  max-width: 160px;
+  height: auto;
+  margin-bottom: 1.5em;
+  filter: drop-shadow(0 0 12px #bb86fc55);
 }
 
-.manifesto h1,
-.resonance-title {
-  font-size: 1.8rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-  letter-spacing: 2px;
-  color: #b07eff;
-  text-transform: uppercase;
+.glyph {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+  color: #bb86fc;
+  animation: pulse 6s infinite ease-in-out;
 }
 
-.manifesto p,
-.resonance p {
-  font-size: 1.1rem;
+h1 {
+  font-size: 1.6em;
+  margin-bottom: 0.5em;
+}
+
+p {
+  font-size: 1em;
+  max-width: 480px;
+  margin-bottom: 2em;
   line-height: 1.6;
-  color: #e0e0e0;
 }
 
-.tiktok {
-  margin-top: 3rem;
+.links a {
+  display: block;
+  margin: 0.5em 0;
+  padding: 0.75em 1.5em;
+  border-radius: 12px;
+  background: #222;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #444;
+  transition: all 0.3s ease;
+}
+
+.links a:hover {
+  background: #333;
+  box-shadow: 0 0 6px #bb86fc55;
+}
+
+@media (min-width: 768px) {
+  h1 { font-size: 2em; }
+  p { font-size: 1.1em; }
+  .links a { width: 300px; margin: 0.5em auto; }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.6; transform: scale(1.03); }
 }
