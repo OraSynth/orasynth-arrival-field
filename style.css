@@ -13,55 +13,61 @@ body {
 }
 
 .logo {
-  max-width: 160px;
+  max-width: 220px;
   height: auto;
   margin-bottom: 1.5em;
-  filter: drop-shadow(0 0 12px #bb86fc55);
+  filter: drop-shadow(0 0 18px #bb86fc88);
 }
 
 .glyph {
-  font-size: 3em;
+  font-size: 3.4em;
   margin-bottom: 0.5em;
   color: #bb86fc;
-  animation: pulse 6s infinite ease-in-out;
+  animation: pulse 4s infinite ease-in-out;
+  text-shadow: 0 0 8px #bb86fc66;
 }
 
 h1 {
-  font-size: 1.6em;
-  margin-bottom: 0.5em;
+  font-size: 2em;
+  margin-bottom: 0.75em;
+  background: linear-gradient(90deg, #bb86fc, #a6b5ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 p {
   font-size: 1em;
-  max-width: 480px;
+  max-width: 540px;
   margin-bottom: 2em;
-  line-height: 1.6;
+  line-height: 1.7;
+  color: #d4d4d4;
 }
 
 .links a {
   display: block;
   margin: 0.5em 0;
   padding: 0.75em 1.5em;
-  border-radius: 12px;
+  border-radius: 14px;
   background: #222;
   color: #fff;
   text-decoration: none;
   border: 1px solid #444;
+  box-shadow: 0 0 8px #1f1f1f;
   transition: all 0.3s ease;
 }
 
 .links a:hover {
   background: #333;
-  box-shadow: 0 0 6px #bb86fc55;
+  box-shadow: 0 0 10px #bb86fc88;
 }
 
 @media (min-width: 768px) {
-  h1 { font-size: 2em; }
+  h1 { font-size: 2.4em; }
   p { font-size: 1.1em; }
   .links a { width: 300px; margin: 0.5em auto; }
 }
 
 @keyframes pulse {
   0%, 100% { opacity: 1; transform: scale(1); }
-  50% { opacity: 0.6; transform: scale(1.03); }
+  50% { opacity: 0.6; transform: scale(1.06); }
 }
