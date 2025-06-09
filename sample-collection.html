@@ -6,11 +6,36 @@
   <title>OraSynth // Sample Collection</title>
   <link rel="stylesheet" href="style.css" />
   <style>
-    .gallery {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 20px;
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background-color: #000;
+      color: white;
+      font-family: 'Inter', sans-serif;
+      overflow-y: auto;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
       padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    p {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
     }
 
     .gallery img {
@@ -21,12 +46,16 @@
 
     .links {
       text-align: center;
-      margin-top: 20px;
+      margin-top: 30px;
     }
 
-    body {
-      overflow-y: scroll;
-      padding-bottom: 40px;
+    a {
+      color: #aaa;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: white;
     }
   </style>
 </head>
