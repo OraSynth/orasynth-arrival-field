@@ -5,19 +5,89 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>OraSynth Collections</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #0a0a0a;
+      color: white;
+      font-family: 'Orbitron', sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 2em;
+      color: #9cfaff;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 16px;
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #4de3ff44;
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    .back-button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: #121212;
+      border: 1px solid #4de3ff;
+      color: #4de3ff;
+      text-decoration: none;
+      font-size: 1em;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-button:hover {
+      background-color: #1a1a1a;
+    }
+  </style>
 </head>
 <body>
-  <div class="container">
-    <h1>ORASYNTH // COLLECTIONS</h1>
-    <p>
-      A living archive of visual relics, curated by signal resonance.<br />
-      Begin with the Sample Collection below.
-    </p>
-    <div class="links">
-      <a href="sample-collection.html">Sample Collection</a>
-      <a href="index.html">Return to Field Node</a>
-    </div>
+
+  <header>
+    <h1>SAMPLE COLLECTION</h1>
+    <p>Curated relics from the OraSynth archive</p>
+  </header>
+
+  <div class="gallery">
+    <img src="images/sample-collection/1AF3E419-79F2-42F3-864C-82C8E66C1D0F.png" alt="Relic 1">
+    <img src="images/sample-collection/1CD19192-D273-4B66-AC8A-FC44A41762A5.png" alt="Relic 2">
+    <img src="images/sample-collection/2C92A8F6-BC76-425E-A05F-990408439630.png" alt="Relic 3">
+    <img src="images/sample-collection/3018D96F-23C2-4CC9-AFAF-075801E77819.png" alt="Relic 4">
+    <img src="images/sample-collection/3D91364B-E1C6-48CB-90D7-E4E96306CB37.png" alt="Relic 5">
+    <img src="images/sample-collection/4270518C-B603-4808-A465-06375AD01870.png" alt="Relic 6">
+    <img src="images/sample-collection/4C17E52F-AB94-4AC0-A5C6-DA14E279BF92.png" alt="Relic 7">
+    <img src="images/sample-collection/6167D9EF-2B65-4AC7-80A5-DE5A65926BE9.png" alt="Relic 8">
+    <img src="images/sample-collection/7F76C4C2-2CC8-4744-A4F7-FE2841082B69.png" alt="Relic 9">
+    <img src="images/sample-collection/89234A9D-D957-42CC-A8D7-8BE8422D7C61.png" alt="Relic 10">
+    <img src="images/sample-collection/8DBEE553-CEC7-4C7C-8C21-BFC2485D0432.png" alt="Relic 11">
+    <img src="images/sample-collection/BDE020E3-EA24-4C65-BB16-AB4CC24EC355.png" alt="Relic 12">
+    <img src="images/sample-collection/BEEB4D5C-7479-4972-B9D8-908C3915A65C.png" alt="Relic 13">
+    <img src="images/sample-collection/C8A27EBC-E8DA-44D6-8657-AF8CA99360C2.png" alt="Relic 14">
   </div>
+
+  <a href="index.html" class="back-button">Return to Portal</a>
+
 </body>
 </html>
