@@ -5,15 +5,24 @@ body {
   font-family: 'Space Grotesk', sans-serif;
   background: linear-gradient(to bottom, #0d0d0d, #1a1a1a);
   color: #eaeaea;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  text-align: center;
-  padding: 1.5em;
+  padding: 1em;
   box-sizing: border-box;
   overflow: hidden;
+  text-align: center;
+}
+
+.container {
+  padding: 1.2em;
+  border-radius: 16px;
+  box-shadow: 0 0 18px #bb86fc22;
+  background-color: rgba(0, 0, 0, 0.25);
+  max-width: 600px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .logo {
@@ -25,7 +34,7 @@ body {
 
 .glyph {
   font-size: 4.2em;
-  margin-bottom: 0.3em;
+  margin-bottom: 0.4em;
   color: #bb86fc;
   animation: pulse 4s infinite ease-in-out;
   text-shadow: 0 0 10px #bb86fc88;
@@ -40,16 +49,17 @@ h1 {
 
 p {
   font-size: 0.9em;
-  max-width: 480px;
-  margin-bottom: 1.2em;
   line-height: 1.5;
   color: #e0e0e0;
+  margin-bottom: 1.2em;
 }
 
 .links a {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 500;
   display: block;
   margin: 0.4em auto;
-  padding: 0.6em 1.2em;
+  padding: 0.6em 1.4em;
   border-radius: 12px;
   background: #222;
   color: #fff;
@@ -58,11 +68,14 @@ p {
   box-shadow: 0 0 6px #1f1f1f;
   transition: all 0.3s ease;
   width: 220px;
+  font-size: 0.95em;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
 
 .links a:hover {
   background: #333;
-  box-shadow: 0 0 10px #bb86fcaa;
+  box-shadow: 0 0 12px #bb86fc99;
 }
 
 @media (min-width: 768px) {
