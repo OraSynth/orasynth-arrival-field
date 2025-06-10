@@ -4,58 +4,63 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sample Collection</title>
+  <link rel="stylesheet" href="style.css" />
   <style>
     body {
       margin: 0;
       padding: 0;
+      font-family: 'Arial', sans-serif;
       background-color: #0e0e1a;
       color: #ffffff;
-      font-family: 'Arial', sans-serif;
       overflow-y: auto;
     }
 
     .container {
       max-width: 800px;
       margin: 0 auto;
-      padding: 40px 20px 80px;
+      padding: 40px 20px 60px;
       text-align: center;
     }
 
     h1 {
       font-size: 2.5em;
+      margin-bottom: 20px;
       color: #c084fc;
-      margin-bottom: 10px;
+      letter-spacing: 1px;
     }
 
     p {
       font-size: 1em;
-      color: #ccc;
-      margin-bottom: 30px;
+      margin-bottom: 40px;
+      color: #cccccc;
     }
 
     .gallery {
       display: flex;
       flex-direction: column;
-      gap: 24px;
+      gap: 20px;
     }
 
     .gallery img {
       width: 100%;
-      border-radius: 8px;
-      box-shadow: 0 0 12px rgba(255, 255, 255, 0.08);
+      border-radius: 10px;
+      box-shadow: 0 0 12px rgba(255, 255, 255, 0.1);
+    }
+
+    .button-container {
+      margin-top: 60px;
+      text-align: center;
     }
 
     .button {
-      display: inline-block;
-      margin-top: 40px;
-      padding: 12px 24px;
-      font-weight: bold;
-      color: #c084fc;
+      background-color: transparent;
       border: 2px solid #c084fc;
-      border-radius: 6px;
+      color: #c084fc;
+      padding: 12px 24px;
+      font-size: 1em;
       text-decoration: none;
-      background: transparent;
-      transition: background-color 0.3s, color 0.3s;
+      border-radius: 6px;
+      transition: all 0.3s ease;
     }
 
     .button:hover {
@@ -68,6 +73,7 @@
   <div class="container">
     <h1>SAMPLE COLLECTION</h1>
     <p>This gallery contains a set of initial digital relics curated for exploration.</p>
+
     <div class="gallery">
       <img src="images/1AF3E419-79F2-42F3-864C-82C8E66C1D0F.png" />
       <img src="images/1CD19192-D273-4B66-AC8A-FC44A41762A5.png" />
@@ -84,7 +90,10 @@
       <img src="images/BEEB4D5C-7479-4972-B9D8-908C3915A65C.png" />
       <img src="images/C8A27EBC-E8DA-44D6-8657-AF8CA99360C2.png" />
     </div>
-    <a href="collections.html" class="button">← Return to Collections</a>
+
+    <div class="button-container">
+      <a href="collections.html" class="button">← Return to Collections</a>
+    </div>
   </div>
 </body>
 </html>
