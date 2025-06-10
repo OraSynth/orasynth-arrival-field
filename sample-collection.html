@@ -4,98 +4,67 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>OraSynth // Sample Collection</title>
+  <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet" />
   <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      font-family: 'Space Grotesk', sans-serif;
-      background-color: #0e0e1a;
-      color: #ffffff;
-      overflow-y: scroll;
-    }
-
-    .container {
-      max-width: 720px;
-      margin: 0 auto;
-      padding: 40px 20px;
-      text-align: center;
-    }
-
-    h1 {
-      font-size: 1.8em;
-      font-weight: 700;
-      letter-spacing: 1px;
-      margin-bottom: 10px;
-      color: #c084fc;
-    }
-
-    p {
-      font-size: 1em;
-      color: #bbbbbb;
-      margin-bottom: 30px;
+    body {
+      overflow-y: auto;
+      align-items: flex-start;
+      justify-content: center;
     }
 
     .gallery {
       display: flex;
       flex-direction: column;
-      gap: 24px;
+      align-items: center;
+      gap: 2em;
+      margin-top: 2em;
+      padding-bottom: 3em;
+      width: 100%;
+      max-width: 640px;
     }
 
     .gallery img {
       width: 100%;
-      border-radius: 10px;
-      box-shadow: 0 0 12px rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      box-shadow: 0 0 14px #00000044;
     }
 
-    .button-wrapper {
-      margin-top: 60px;
-      display: flex;
-      justify-content: center;
-    }
-
-    .button-wrapper a {
-      display: inline-block;
-      border: 1px solid #c084fc;
-      color: #c084fc;
-      text-decoration: none;
-      font-weight: bold;
-      padding: 12px 28px;
-      border-radius: 30px;
-      transition: all 0.25s ease;
-    }
-
-    .button-wrapper a:hover {
-      background-color: #c084fc;
-      color: #0e0e1a;
+    .links {
+      margin-top: 2em;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>SAMPLE COLLECTION</h1>
-    <p>This gallery contains a set of initial digital relics curated for exploration.</p>
+    <img src="assets/logo.bmp" alt="OraSynth Logo" class="logo" />
+    <div class="glyph">⟁</div>
+    <h1>ORASYNTH // SAMPLE COLLECTION</h1>
+    <p>
+      These are not images.<br />
+      They are relics — handcrafted, attuned, and echoing your arrival.
+    </p>
+  </div>
 
-    <div class="gallery">
-      <img src="images/1AF3E419-79F2-42F3-864C-82C8E66C1D0F.png" />
-      <img src="images/1CD19192-D273-4B66-AC8A-FC44A41762A5.png" />
-      <img src="images/2C92A8F6-BC76-425E-A05F-990408439630.png" />
-      <img src="images/3018D96F-23C2-4CC9-AFAF-075801E77819.png" />
-      <img src="images/3D91364B-E1C6-48CB-90D7-E4E96306CB37.png" />
-      <img src="images/4270518C-B603-4808-A465-06375AD01870.png" />
-      <img src="images/4C17E52F-AB94-4AC0-A5C6-DA14E279BF92.png" />
-      <img src="images/6167D9EF-2B65-4AC7-80A5-DE5A65926BE9.png" />
-      <img src="images/7F76C4C2-2CC8-4744-A4F7-FE2841082B69.png" />
-      <img src="images/89234A9D-D957-42CC-A8D7-8BE8422D7C61.png" />
-      <img src="images/8DBEE553-CEC7-4C7C-8C21-BFC2485D0432.png" />
-      <img src="images/BDE020E3-EA24-4C65-BB16-AB4CC24EC355.png" />
-      <img src="images/BEEB4D5C-7479-4972-B9D8-908C3915A65C.png" />
-      <img src="images/C8A27EBC-E8DA-44D6-8657-AF8CA99360C2.png" />
-    </div>
+  <div class="gallery">
+    <img src="images/1AF3E419-79F2-42F3-864C-82C8E66C1D0F.png" />
+    <img src="images/1CD19192-D273-4B66-AC8A-FC44A41762A5.png" />
+    <img src="images/2C92A8F6-BC76-425E-A05F-990408439630.png" />
+    <img src="images/3018D96F-23C2-4CC9-AFAF-075801E77819.png" />
+    <img src="images/3D91364B-E1C6-48CB-90D7-E4E96306CB37.png" />
+    <img src="images/4270518C-B603-4808-A465-06375AD01870.png" />
+    <img src="images/4C17E52F-AB94-4AC0-A5C6-DA14E279BF92.png" />
+    <img src="images/6167D9EF-2B65-4AC7-80A5-DE5A65926BE9.png" />
+    <img src="images/7F76C4C2-2CC8-4744-A4F7-FE2841082B69.png" />
+    <img src="images/89234A9D-D957-42CC-A8D7-8BE8422D7C61.png" />
+    <img src="images/8DBEE553-CEC7-4C7C-8C21-BFC2485D0432.png" />
+    <img src="images/BDE020E3-EA24-4C65-BB16-AB4CC24EC355.png" />
+    <img src="images/BEEB4D5C-7479-4972-B9D8-908C3915A65C.png" />
+    <img src="images/C8A27EBC-E8DA-44D6-8657-AF8CA99360C2.png" />
+  </div>
 
-    <div class="button-wrapper">
-      <a href="collections.html">← Back to Collections</a>
-    </div>
+  <div class="links">
+    <a href="collections.html">Return to Collections</a>
   </div>
 </body>
 </html>
