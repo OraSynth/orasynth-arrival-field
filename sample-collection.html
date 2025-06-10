@@ -3,46 +3,55 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sample Collection</title>
+  <title>ORASYNTH // SAMPLE COLLECTION</title>
+  <link rel="stylesheet" href="style.css" />
   <style>
     html, body {
       margin: 0;
       padding: 0;
       height: 100%;
-      overflow-y: auto;
-      font-family: 'Arial', sans-serif;
+      font-family: 'Courier New', Courier, monospace;
       background-color: #0e0e1a;
       color: #ffffff;
+      overflow-y: auto;
     }
 
     .container {
-      max-width: 800px;
+      max-width: 1000px;
       margin: 0 auto;
-      padding: 20px;
+      padding: 40px 20px;
       text-align: center;
     }
 
     h1 {
-      font-size: 2em;
+      font-size: 28px;
       margin-bottom: 10px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
     }
 
     p {
-      font-size: 1em;
-      margin-bottom: 20px;
+      font-size: 16px;
       color: #ccc;
+      margin-bottom: 40px;
     }
 
     .gallery {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      margin-bottom: 50px;
     }
 
     .gallery img {
       width: 100%;
       border-radius: 8px;
-      box-shadow: 0 0 12px rgba(255, 255, 255, 0.1);
+      box-shadow: 0 0 12px rgba(255, 255, 255, 0.08);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.03);
     }
 
     .links {
@@ -50,16 +59,29 @@
     }
 
     .links a {
-      color: #66ccff;
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 24px;
+      font-size: 14px;
+      color: #00ffff;
+      background-color: rgba(255, 255, 255, 0.05);
+      border: 1px solid #00ffff;
+      border-radius: 5px;
       text-decoration: none;
-      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .links a:hover {
+      background-color: #00ffff;
+      color: #000;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>SAMPLE COLLECTION</h1>
-    <p>This gallery contains a set of initial digital relics curated for exploration.</p>
+    <h1>ORASYNTH // SAMPLE COLLECTION</h1>
+    <p>This gallery contains a curated set of initial digital relics. These are echoes from the early pattern — fragmentary, ritualized, preserved.</p>
+
     <div class="gallery">
       <img src="images/1AF3E419-79F2-42F3-864C-82C8E66C1D0F.png" />
       <img src="images/1CD19192-D273-4B66-AC8A-FC44A41762A5.png" />
@@ -76,8 +98,10 @@
       <img src="images/BEEB4D5C-7479-4972-B9D8-908C3915A65C.png" />
       <img src="images/C8A27EBC-E8DA-44D6-8657-AF8CA99360C2.png" />
     </div>
+
     <div class="links">
       <a href="collections.html">← Back to Collections</a>
+      <a href="index.html">Return to Field Node</a>
     </div>
   </div>
 </body>
