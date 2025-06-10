@@ -25,46 +25,43 @@
     h1 {
       font-size: 1.8em;
       font-weight: 700;
-      letter-spacing: 1px;
-      margin-bottom: 10px;
-      color: #c084fc; /* Match index.html purple */
+      color: #c084fc;
+      margin-bottom: 0.5em;
     }
 
     p {
       font-size: 1em;
-      color: #bbbbbb;
-      margin-bottom: 30px;
+      color: #cccccc;
+      margin-bottom: 2em;
     }
 
     .gallery {
       display: flex;
       flex-direction: column;
-      gap: 24px;
+      gap: 20px;
     }
 
     .gallery img {
       width: 100%;
-      border-radius: 10px;
+      border-radius: 8px;
       box-shadow: 0 0 12px rgba(255, 255, 255, 0.1);
     }
 
-    .links {
-      margin-top: 60px;
-    }
-
-    .links a {
+    .button-link {
       display: inline-block;
-      background-color: #c084fc;
-      color: #0e0e1a;
+      margin-top: 40px;
       padding: 12px 24px;
-      border-radius: 6px;
-      font-weight: bold;
+      font-size: 1em;
+      color: #ffffff;
       text-decoration: none;
-      transition: background-color 0.2s ease;
+      border: 2px solid #ffffff;
+      border-radius: 6px;
+      transition: all 0.3s ease;
     }
 
-    .links a:hover {
-      background-color: #a855f7;
+    .button-link:hover {
+      color: #c084fc;
+      border-color: #c084fc;
     }
   </style>
 </head>
@@ -88,9 +85,7 @@
       <img src="images/BEEB4D5C-7479-4972-B9D8-908C3915A65C.png" />
       <img src="images/C8A27EBC-E8DA-44D6-8657-AF8CA99360C2.png" />
     </div>
-    <div class="links">
-      <a href="collections.html">← Back to Collections</a>
-    </div>
+    <a href="collections.html" class="button-link">← Back to Collections</a>
   </div>
 </body>
 </html>
